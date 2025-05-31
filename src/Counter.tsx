@@ -7,6 +7,8 @@ const Counter = () => {
   /*const [count, setCount] = useState<number>(0)*/
   const count = useSelector((state:RootState)=>state.counter.counter
   )
+
+  /*State change krnn action pass krnn ona method ek dispatch*/
   const dispatch = useDispatch();
 
 
